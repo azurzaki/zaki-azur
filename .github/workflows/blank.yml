@@ -1,300 +1,22 @@
-
-
-Ajoutez un commentaire…
-
-
-Omar Lotfy
-il y a 1 mois
-انت برنس والله مع انى مجربتش الخطوات بس انا عارف شغلك ... استمر يا صديقى وان شاء الله اشوفك اكبر قناة على اليوتيوب
-
-2
-1
-
-
-
-Funny Cats
-il y a 1 mois
-شكرا
-
-1
-
-
-
-
-Funny Cats
-il y a 1 mois
-شكرا والله
-
-2
-
-
-
-
-Funny Cats
-il y a 1 mois
-شكرا منا لقلب
-
-1
-
-
-
-
-wight lose steps
-il y a 1 mois
-يقولي لمـآ آضـغطـ على action و ci وبــعدآ آشـغ ـله في آلخـآنة مـآقبــل آلآخـيرة يقولي  آسـمـك ويوزر بــآلآحـمـر هل يجب وتغيير الاسم وكلمة المرور لصاحب الحساب
-
-1
-1
-
-
-
-فرفش وتسلا
-il y a 1 mois
-نفذت جميع الخطوات وماطلع اي شي 😪
-
-1
-1
-
-
-
-Funny Cats
-il y a 1 mois
-إعطينا rdp بليز
-
-2
-
-
-
-
-Funny Cats
-il y a 1 mois
-عملته rdp
-
-1
-
-
-
-
-بيا ولا بيك
-il y a 1 mois
-يضهر لي هدا Workflows aren’t being run on this repository
-عندما اضغط على action
-
-1
-3
-
-
-
-BASSEM TECHNOLOGY
-il y a 1 mois
-بيقولي نفذ خطا Create blank.yml الشرح الي في الدقيقه 9:52
-
-1
-6
-
-
-
-Gigkhhi Eghki
-il y a 1 mois
-بعد دقيقة بينحضر حسابي في github
-
-3
-
-
-
-
-munzer khlailate
-il y a 1 mois
-CI: All jobs have failed
-مش شغل وبديني مسج ع الجيميل
-
-1
-2
-
-
-
-क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण ता थ द ध न प फ ब भ
-il y a 1 mois
-Work for 1 hour?
-
-1
-1
-
-
-
-Funny Cats
-il y a 1 mois
-ولله فرحانين
-
-2
-
-
-
-
-Gigkhhi Eghki
-il y a 1 mois
-اخي بطلب منك طلب سأنشء حساب جديد في github وحساب في ngrok واعتيك حساباتي احتاج منك تدخل لي الملف عندي مشكلة في الملف
-
-1
-2
-
-
-
-Funny Cats
-il y a 1 mois
-مشكلة في ngrok
-
-2
-3
-
-
-
-
-Funny Cats
-il y a 1 mois
-ولله إلا محتاجلو
-
-1
-
-
-
-
-Funny Cats
-il y a 1 mois
-إبعتلي أرجوك يا صاحبي
-
-1
-
-
-
-
-Ali Mohamed
-il y a 1 mois
-كيف ممكن اشتري مواصفات اعلى ؟
-
-1
-1
-
-
-
-Gigkhhi Eghki
-il y a 1 mois
-مع كل احترامي الملف غير شغال في الخانة ما قبل الاخيرة يعتيني علامة حمراء
-
-1
-3
-
-
-
-Funny Cats
-il y a 1 mois
-شكرا
-
-1
-
-
-
-
-GoGo YT !
-il y a 1 mois
-يقولي لمـآ آضـغطـ على action و ci وبــعدآ آشـغ ـله في آلخـآنة مـآقبــل آلآخـيرة يقولي  آسـمـك ويوزر بــآلآحـمـر
-
-2
-5
-
-
-
-men in the game
-il y a 1 mois
-طب انا مش عارف اعمله علشان الموبايل مينفعش فيه
-
-2
-
-
-
-King SY
-il y a 1 mois
-غير صحيح لايعمل سنه كامله
-
-1
-1
-
-
-
-loki loki
-il y a 9 jours
-يعم طريقتك صحيحه بس الزمن قصير انت قايل سنه ؟
-
-1
-2
-
-
-
-Funny Cats
-il y a 1 mois
-إبعتلي يا صاحبي
-
-1
-
-
-
-
-Eslam Fadl
-il y a 1 mois
-اشتغل بس 5 دقائق وبيفصل
-ومبيدخلش تاني 
-عملت اكتر من واحد نفس الحكاية
-
-2
-4
-
-
-
-Terminator TECH | المدمر تكنو
-il y a 1 mois
-عامل الاكونت بالجيميل
-
-
-
-
-Eslam Fadl
-il y a 1 mois
- @Terminator TECH | المدمر تكنو  ايوه
-
-
-
-
-Eslam Fadl
-il y a 1 mois
- @Terminator TECH | المدمر تكنو  ؟
-
-1
-
-
-
-Terminator TECH | المدمر تكنو
-il y a 1 mois
- @Eslam Fadl  استخدم دة
 name: CI
-
 on: [push, workflow_dispatch]
-
 jobs:
   build:
-
     runs-on: windows-latest
-
     steps:
     - name: Download
-      run: Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
+      run: Invoke-WebRequest
+https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
     - name: Extract
       run: Expand-Archive ngrok.zip
     - name: Auth
-      run: .\ngrok\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN
+run: .\ngrok\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN
       env:
         NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
     - name: Enable TS
       run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
+    - run: Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+    - run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
     - run: Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
     - run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
     - run: Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "P@ssw0rd!" -Force)
